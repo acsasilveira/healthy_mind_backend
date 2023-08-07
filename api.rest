@@ -1,0 +1,21 @@
+### Registro do usuário
+POST http://127.0.0.1:3333/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "Acsa",
+    "telefone": "9874589",
+    "genero": "feminino",
+    "aniversario": "2005-12-15",
+    "email": "acsa_silveira@yahoo.com.br",
+    "password": "123456"
+}
+
+### Registro do usuário
+POST http://127.0.0.1:3333/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "acsa_silveira@yahoo.com.br",
+    "password": "123456"
+}
