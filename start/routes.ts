@@ -26,3 +26,6 @@ Route.get('/', async () => {
 
 Route.post('/register','AuthController.register')
 Route.post('/login','AuthController.login')
+Route.group(() => {
+  Route.put("/user","UsersController.update")
+}).middleware('auth')
